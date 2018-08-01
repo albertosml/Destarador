@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="titulo_peso" min="-2" max="-2" attributes="0"/>
+                          <Component id="titulo_cod_caja" min="-2" max="-2" attributes="0"/>
+                          <Component id="texto_num_cajas" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="text_cod_caja1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="text_num_caja1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="texto_num_palet" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="texto_cod_palet" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cod_palet" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="num_caja1" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cod_caja1" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cod_caja" max="32767" attributes="0"/>
+                                  <Component id="num_caja" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="peso_bruto" alignment="1" pref="108" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="peso_neto" min="-2" pref="162" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="titulo_neto" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="ruta" min="-2" pref="197" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="boton_elegir" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="boton_destarar" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="reset" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="boton_capturar_pantalla" min="-2" pref="157" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="boton_imprimir_pantalla" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                      <Component id="save_result" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="num_palets" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="opciones" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="titulo_modificar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cod_caja_eliminar" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
+                                  <Component id="cod_caja_modificar" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="boton_modificar" pref="144" max="32767" attributes="0"/>
+                                  <Component id="boton_eliminar" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="titulo_eliminar" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="texto_modificar_palet" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="texto_eliminar_palet" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cod_palet_modificar" pref="55" max="32767" attributes="0"/>
+                                  <Component id="cod_palet_eliminar" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="boton_modificar_palet" pref="144" max="32767" attributes="0"/>
+                                  <Component id="boton_eliminar_palet" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="boton_consultar" min="-2" pref="126" max="-2" attributes="0"/>
+                          <Component id="boton_aniadir" min="-2" pref="126" max="-2" attributes="0"/>
+                          <Component id="boton_aniadir_palet" alignment="0" min="-2" pref="126" max="-2" attributes="0"/>
+                          <Component id="boton_consultar_palet" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="47" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="titulo_inicio" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="303" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Component id="titulo_inicio" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="titulo_peso" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="peso_bruto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="titulo_cod_caja" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cod_caja" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="texto_num_cajas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="num_caja" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="text_cod_caja1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cod_caja1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="save_result" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="text_num_caja1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="num_caja1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="10" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="texto_cod_palet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cod_palet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="texto_num_palet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="num_palets" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="opciones" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="titulo_neto" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="peso_neto" min="-2" pref="44" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="boton_destarar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="reset" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="ruta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="boton_elegir" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="boton_capturar_pantalla" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="boton_imprimir_pantalla" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="titulo_modificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cod_caja_modificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="boton_modificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="boton_aniadir" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="titulo_eliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cod_caja_eliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="boton_eliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="boton_consultar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="boton_aniadir_palet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="boton_modificar_palet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cod_palet_modificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="texto_modificar_palet" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="texto_eliminar_palet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cod_palet_eliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="boton_eliminar_palet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="boton_consultar_palet" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="titulo_peso">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="peso_bruto"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Peso Bruto (en kilogramos):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="peso_bruto">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="peso_brutoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="titulo_cod_caja">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="cod_caja"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="C&#xf3;digo de Caja tipo 1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cod_caja">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cod_cajaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="titulo_inicio">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Comic Sans MS" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DESTARADOR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_destarar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Destarar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_destararActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="titulo_neto">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="peso_neto"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Peso Neto :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="opciones">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="OPCIONES:"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor Por defecto"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="titulo_modificar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Introduzca el c&#xf3;digo de caja a modificar: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cod_caja_modificar">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cod_caja_modificarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_modificar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modificar Caja"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_modificarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="titulo_eliminar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Introduzca el c&#xf3;digo de caja a eliminar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cod_caja_eliminar">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cod_caja_eliminarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_eliminar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eliminar Caja"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_eliminarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_aniadir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A&#xf1;adir Caja"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_aniadirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_consultar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Consultar Cajas"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_consultarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="peso_neto">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="texto_num_cajas">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="num_caja"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de Cajas tipo 1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="num_caja">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="num_cajaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="reset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hacer nueva destaraci&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="texto_cod_palet">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="cod_palet"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="C&#xf3;digo de Palet:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cod_palet">
+    </Component>
+    <Component class="javax.swing.JLabel" name="texto_num_palet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de Palets:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="num_palets">
+    </Component>
+    <Component class="javax.swing.JLabel" name="texto_modificar_palet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Introduzca el c&#xf3;digo del palet a modificar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cod_palet_modificar">
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_modificar_palet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modificar Palet"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_modificar_paletActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_aniadir_palet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A&#xf1;adir Palet"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_aniadir_paletActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="texto_eliminar_palet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Introduzca el c&#xf3;digo del palet a eliminar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cod_palet_eliminar">
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_eliminar_palet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eliminar Palet"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_eliminar_paletActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_consultar_palet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Consultar Palets"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_consultar_paletActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="text_cod_caja1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xf3;digo de Caja tipo 2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cod_caja1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="text_num_caja1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de Cajas tipo 2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="num_caja1">
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_elegir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Elegir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_elegirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_capturar_pantalla">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Capturar pantalla"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_capturar_pantallaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ruta">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rutaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="save_result">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar Resultado:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_imprimir_pantalla">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Imprimir pantalla"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_imprimir_pantallaActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
